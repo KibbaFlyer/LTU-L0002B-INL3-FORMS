@@ -16,12 +16,12 @@ namespace PersonRegistrerare
         {
             InitializeComponent();
         }
-
+        // Om användaren klickar på PersReg så startas ett nytt fönster som öppnas
         private void buttonPersReg_Click(object sender, EventArgs e)
         {
             new PersonRegistrerare().Show();
         }
-
+        // Vid avbryt stängs programmet ned
         private void buttonAvbryt_Click(object sender, EventArgs e)
         {
             Application.Exit();
